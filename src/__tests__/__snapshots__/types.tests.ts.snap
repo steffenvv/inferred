@@ -5,7 +5,7 @@ Object {
   "dtsOutput": "import { InferType, Validated, Validator } from \\".\\";
 export { Validated, Validator };
 export declare const t1: Validator<string>;
-export declare type T1 = InferType<typeof t1>;
+export type T1 = InferType<typeof t1>;
 ",
   "errors": Array [],
   "jsOutput": "",
@@ -28,8 +28,8 @@ export declare const t2: Validator<Validated<{
         baz: any;
     }>;
 }>>;
-export declare type T1 = InferType<typeof t1>;
-export declare type T2 = InferType<typeof t2>;
+export type T1 = InferType<typeof t1>;
+export type T2 = InferType<typeof t2>;
 ",
   "errors": Array [],
   "jsOutput": "",
@@ -45,7 +45,7 @@ export declare const t1: Validator<Validated<{
     bar: number;
     baz: boolean;
 }>>;
-export declare type T1 = InferType<typeof t1>;
+export type T1 = InferType<typeof t1>;
 ",
   "errors": Array [],
   "jsOutput": "",
@@ -61,7 +61,7 @@ export declare const t1: Validator<Validated<{
     bar: number | null;
     baz: boolean | undefined;
 }>>;
-export declare type T1 = InferType<typeof t1>;
+export type T1 = InferType<typeof t1>;
 ",
   "errors": Array [],
   "jsOutput": "",
@@ -81,7 +81,7 @@ export declare const anOutcome: Validator<Validated<{
     error: string;
     stackTrace: string | undefined;
 }>>;
-export declare type Outcome = InferType<typeof anOutcome>;
+export type Outcome = InferType<typeof anOutcome>;
 ",
   "errors": Array [],
   "jsOutput": "",

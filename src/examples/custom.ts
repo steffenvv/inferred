@@ -21,5 +21,5 @@ if (aHexString.isValid("Bad")) {
 }
 
 const aResponse = anObject({
-    data: aHexString.array.orNull
+    data: aHexString.array.orNull,
 });
